@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleSQLite</string>
+    <string name="Name">Budget Organizer</string>
+    <string name="userMenu">User menu</string>
+    <string name="Email">Email</string>
+    <string name="Add">Add</string>
+    <string name="Clear">Clear</string>
+    <string name="Read">Read</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="Profile">Profile</string>
+
+</resources>
