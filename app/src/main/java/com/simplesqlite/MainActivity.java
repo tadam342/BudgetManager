@@ -16,8 +16,6 @@ public class MainActivity extends Activity {
     ImageButton btnLogin;
     EditText ed1, ed2;
 
-    TextView tx1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +31,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 if (ed1.getText().toString().equals("admin") &&
                         ed2.getText().toString().equals("admin")) {
-                    Toast.makeText(getApplicationContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Welcome!!!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this, UserMenu.class);
                     startActivity(intent);
                 } else {

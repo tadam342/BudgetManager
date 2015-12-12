@@ -8,5 +8,23 @@
     <string name="Read">Read</string>
     <string name="title_activity_login">Sign in</string>
     <string name="Profile">Profile</string>
+    <!--
+    For listFragment
+    -->
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
 
+    <!--
+    For ProfileFragment
+    -->
+    <string name="hintTypeBudget">Enter your budget.</string>
+    <string name="btnAddBudget">Add</string>
+
+    <!--
+    For Exchange Rates
+    -->
+    <string name="st_uah_to_usd">UAH -> USD:</string>
+    <string name="st_usd_to_uah">UAH -> EUR:</string>
+    <string name="exchange_rates">Exchange Rates</string>
 </resources>
