@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description"
+        android:id="@+id/textViewDesc" />
+
+    <EditText
+        android:id="@+id/txtItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text here.."
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cost"
+        android:id="@+id/textViewCost" />
+
+    <EditText
+        android:id="@+id/txtCost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text here.."
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_below="@id/txtItem"/>
+</LinearLayout>
