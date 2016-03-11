@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleSQLite</string>
+    <string name="app_name">MyBudget</string>
     <string name="Name">Budget Organizer</string>
     <string name="userMenu">User menu</string>
     <string name="Email">Email</string>

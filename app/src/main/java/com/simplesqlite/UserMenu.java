@@ -1,5 +1,8 @@
 package com.simplesqlite;
-
+/**
+ * Created by fff on 08.12.2015.
+ */
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -35,6 +38,8 @@ public class UserMenu extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
